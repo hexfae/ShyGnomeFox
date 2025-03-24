@@ -1,3 +1,5 @@
+// ShyFox
+
 // userchrome.css usercontent.css activate
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 
@@ -25,3 +27,11 @@ user_pref("widget.gtk.rounded-bottom-corners.enabled", true);
 
 // Who is bogus? (fixes Sidebery tab dragging on Linux)
 user_pref("widget.gtk.ignore-bogus-leave-notify", 1);
+
+// Firefox GNOME theme
+
+// Set UI density to normal
+user_pref("browser.uidensity", 0);
+
+// Disable private window dark theme
+user_pref("browser.theme.dark-private-windows", false);

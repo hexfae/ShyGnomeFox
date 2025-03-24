@@ -1,4 +1,4 @@
-/* imports */
+/* ShyFox imports */
 @import url("ShyFox/shy-variables.css");
 @import url("ShyFox/shy-global.css");
 @import url("ShyFox/shy-sidebar.css");
@@ -10,3 +10,29 @@
 @import url("ShyFox/shy-icons.css");
 @import url("ShyFox/shy-floating-search.css");
 @import url("ShyFox/shy-sidebar-revamp.css");
+/* Firefox GNOME Theme imports*/
+/* Core */
+@import url("FirefoxGnomeTheme/csd.css");
+@import url("FirefoxGnomeTheme/lists.css");
+
+@import url("FirefoxGnomeTheme/buttons.css");
+@import url("FirefoxGnomeTheme/buttons-fixes.css");
+@import url("FirefoxGnomeTheme/icons.css");
+
+@import url("FirefoxGnomeTheme/popups.css");
+@import url("FirefoxGnomeTheme/popups-contents.css");
+@import url("FirefoxGnomeTheme/dialogs.css");
+
+@import url("FirefoxGnomeTheme/remove-white-flash.css");
+
+/* Variables */
+@import url("FirefoxGnomeTheme/variables.css");
+@import url("FirefoxGnomeTheme/colors/light.css");
+@import url("FirefoxGnomeTheme/colors/dark.css");
+@import url("FirefoxGnomeTheme/colors/black.css") screen and (-moz-bool-pref: "gnomeTheme.oledBlack");
+
+/* Optional */
+@import "system-icons.css" screen and (-moz-bool-pref: "gnomeTheme.systemIcons");
+@import "symbolic-tab-icons.css" screen and (-moz-bool-pref: "gnomeTheme.symbolicTabIcons");
+
+@namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
