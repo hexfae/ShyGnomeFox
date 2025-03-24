@@ -13,12 +13,6 @@ link[href="chrome://global/skin/menulist.css"] ~ dropmarker {
 	margin-inline-start: 6px !important;
 }
 
-/* Remove the header bar buttons' hover styles */
-#nav-bar {
-	--toolbarbutton-active-background: transparent !important;
-	--toolbarbutton-hover-background: transparent !important;
-}
-
 /* Fix notification dropmarker */
 .popup-notification-dropmarker dropmarker {
 	margin-inline-start: 0 !important;

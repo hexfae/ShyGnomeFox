@@ -13,7 +13,7 @@
 /* Buttons */
 menulist,
 .customizationmode-button,
-#nav-bar toolbarbutton:not(#urlbar-zoom-button):not(.subviewbutton):not(.titlebar-button),
+/* #nav-bar toolbarbutton:not(#urlbar-zoom-button):not(.subviewbutton):not(.titlebar-button), */
 :root[inFullscreen] .titlebar-button.titlebar-restore,
 .subviewbutton.panel-subview-footer,
 .panel-footer button,
@@ -90,45 +90,6 @@ button.close,
 }
 .subviewbutton-iconic {
 	-moz-box-pack: center !important;
-}
-
-/* Flat Buttons */
-#nav-bar toolbarbutton:not(#urlbar-zoom-button):not(.subviewbutton):not(.titlebar-button),
-:root[inFullscreen] .titlebar-button.titlebar-restore,
-.close-icon:not(.tab-close-button),
-button.close,
-.panel-info-button,
-.permission-popup-permission-remove-button,
-.unified-extensions-item-menu-button {
-	background-color: transparent !important;
-	transition: background var(--gnome-animation-time);
-
-	&:not([disabled="true"]) {
-		/* Hover buttons */
-		&:hover {
-			background-color: var(--gnome-hover-color) !important;
-		}
-		/* Active buttons */
-		&:active {
-			background-color: var(--gnome-active-color) !important;
-		}
-		/* Checked buttons */
-		&[selected], &[checked], &[open] {
-			background-color: var(--gnome-selected-color) !important;
-			
-			&:hover {
-				background-color: var(--gnome-selected-hover-color) !important;
-			}
-			&:active {
-				background-color: var(--gnome-selected-active-color) !important;
-			}
-		}
-	}
-
-	/* Disabled buttons */
-	&[disabled="true"] {
-		opacity: 0.3 !important;
-	}
 }
 
 /* Buttons with suggested action */
